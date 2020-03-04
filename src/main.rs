@@ -1,6 +1,6 @@
-use rand::Rng;
+use rand::Rng; // from the rand crate specified in Cargo.toml
 use std::cmp::Ordering;
-use std::io; // from the rand crate specified in Cargo.toml
+use std::io;
 
 fn main() {
     println!("Guess the number!");
